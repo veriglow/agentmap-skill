@@ -35,19 +35,19 @@ Use Agent Map when you need to:
 To look up a map for any URL, visit:
 
 ```
-https://veri-glow.com/{target-url-without-protocol}
+https://agentmap.veri-glow.com/{target-url-without-protocol}
 ```
 
 For example, to find the map for `https://www.sse.com.cn/market/bonddata/overview/day/`:
 
 ```
-https://veri-glow.com/www.sse.com.cn/market/bonddata/overview/day/
+https://agentmap.veri-glow.com/www.sse.com.cn/market/bonddata/overview/day/
 ```
 
 You can also fetch the page content programmatically:
 
 ```bash
-curl https://veri-glow.com/www.sse.com.cn/market/bonddata/overview/day/
+curl https://agentmap.veri-glow.com/www.sse.com.cn/market/bonddata/overview/day/
 ```
 
 ## What a Map Contains
@@ -187,90 +187,90 @@ Currently indexed: **55 Shanghai Stock Exchange pages** + 6 FRED endpoints + 4 i
 
 | Source | URL | Functions |
 |--------|-----|-----------|
-| [Market Overview](https://veri-glow.com/www.sse.com.cn/market/view/) | `www.sse.com.cn/market/view/` | 1 |
-| [Statistics Overview](https://veri-glow.com/www.sse.com.cn/market/stockdata/statistic/) | `www.sse.com.cn/market/stockdata/statistic/` | 1 |
-| [Stock Weekly Overview](https://veri-glow.com/www.sse.com.cn/market/stockdata/overview/weekly/) | `www.sse.com.cn/market/stockdata/overview/weekly/` | 1 |
-| [Stock Monthly Overview](https://veri-glow.com/www.sse.com.cn/market/stockdata/overview/monthly/) | `www.sse.com.cn/market/stockdata/overview/monthly/` | 1 |
-| [IPO First-Day Performance](https://veri-glow.com/www.sse.com.cn/market/stockdata/firstday/) | `www.sse.com.cn/market/stockdata/firstday/` | 1 |
-| [IPO (Initial Public Offering)](https://veri-glow.com/www.sse.com.cn/market/stockdata/raise/ipo/) | `www.sse.com.cn/market/stockdata/raise/ipo/` | 1 |
-| [Secondary Offering](https://veri-glow.com/www.sse.com.cn/market/stockdata/raise/additional/) | `www.sse.com.cn/market/stockdata/raise/additional/` | 1 |
-| [Rights Issue](https://veri-glow.com/www.sse.com.cn/market/stockdata/raise/allotment/) | `www.sse.com.cn/market/stockdata/raise/allotment/` | 1 |
-| [Share Capital Overview](https://veri-glow.com/www.sse.com.cn/market/stockdata/structure/overview/) | `www.sse.com.cn/market/stockdata/structure/overview/` | 3 |
-| [Share Capital Ranking](https://veri-glow.com/www.sse.com.cn/market/stockdata/structure/rank/) | `www.sse.com.cn/market/stockdata/structure/rank/` | 1 |
-| [Cash Dividends](https://veri-glow.com/www.sse.com.cn/market/stockdata/dividends/dividend/) | `www.sse.com.cn/market/stockdata/dividends/dividend/` | 1 |
-| [Bonus Shares](https://veri-glow.com/www.sse.com.cn/market/stockdata/dividends/bonus/) | `www.sse.com.cn/market/stockdata/dividends/bonus/` | 1 |
-| [Shanghai Market P/E Ratio](https://veri-glow.com/www.sse.com.cn/market/stockdata/price/sh/) | `www.sse.com.cn/market/stockdata/price/sh/` | 1 |
-| [Main Board Market Cap Ranking](https://veri-glow.com/www.sse.com.cn/market/stockdata/marketvalue/main/) | `www.sse.com.cn/market/stockdata/marketvalue/main/` | 1 |
-| [STAR Market Market Cap Ranking](https://veri-glow.com/www.sse.com.cn/market/stockdata/marketvalue/star/) | `www.sse.com.cn/market/stockdata/marketvalue/star/` | 1 |
-| [Main Board Trading Activity](https://veri-glow.com/www.sse.com.cn/market/stockdata/activity/main/) | `www.sse.com.cn/market/stockdata/activity/main/` | 1 |
-| [STAR Market Trading Activity](https://veri-glow.com/www.sse.com.cn/market/stockdata/activity/star/) | `www.sse.com.cn/market/stockdata/activity/star/` | 1 |
-| [Preferred Share Statistics](https://veri-glow.com/www.sse.com.cn/market/stockdata/pshare/) | `www.sse.com.cn/market/stockdata/pshare/` | 1 |
+| [Market Overview](https://agentmap.veri-glow.com/www.sse.com.cn/market/view/) | `www.sse.com.cn/market/view/` | 1 |
+| [Statistics Overview](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/statistic/) | `www.sse.com.cn/market/stockdata/statistic/` | 1 |
+| [Stock Weekly Overview](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/overview/weekly/) | `www.sse.com.cn/market/stockdata/overview/weekly/` | 1 |
+| [Stock Monthly Overview](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/overview/monthly/) | `www.sse.com.cn/market/stockdata/overview/monthly/` | 1 |
+| [IPO First-Day Performance](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/firstday/) | `www.sse.com.cn/market/stockdata/firstday/` | 1 |
+| [IPO (Initial Public Offering)](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/raise/ipo/) | `www.sse.com.cn/market/stockdata/raise/ipo/` | 1 |
+| [Secondary Offering](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/raise/additional/) | `www.sse.com.cn/market/stockdata/raise/additional/` | 1 |
+| [Rights Issue](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/raise/allotment/) | `www.sse.com.cn/market/stockdata/raise/allotment/` | 1 |
+| [Share Capital Overview](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/structure/overview/) | `www.sse.com.cn/market/stockdata/structure/overview/` | 3 |
+| [Share Capital Ranking](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/structure/rank/) | `www.sse.com.cn/market/stockdata/structure/rank/` | 1 |
+| [Cash Dividends](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/dividends/dividend/) | `www.sse.com.cn/market/stockdata/dividends/dividend/` | 1 |
+| [Bonus Shares](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/dividends/bonus/) | `www.sse.com.cn/market/stockdata/dividends/bonus/` | 1 |
+| [Shanghai Market P/E Ratio](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/price/sh/) | `www.sse.com.cn/market/stockdata/price/sh/` | 1 |
+| [Main Board Market Cap Ranking](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/marketvalue/main/) | `www.sse.com.cn/market/stockdata/marketvalue/main/` | 1 |
+| [STAR Market Market Cap Ranking](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/marketvalue/star/) | `www.sse.com.cn/market/stockdata/marketvalue/star/` | 1 |
+| [Main Board Trading Activity](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/activity/main/) | `www.sse.com.cn/market/stockdata/activity/main/` | 1 |
+| [STAR Market Trading Activity](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/activity/star/) | `www.sse.com.cn/market/stockdata/activity/star/` | 1 |
+| [Preferred Share Statistics](https://agentmap.veri-glow.com/www.sse.com.cn/market/stockdata/pshare/) | `www.sse.com.cn/market/stockdata/pshare/` | 1 |
 
 **Index Data (指数):**
 
 | Source | URL | Functions |
 |--------|-----|-----------|
-| [Key Index & Sample Performance](https://veri-glow.com/www.sse.com.cn/market/sseindex/overview/focus/) | `www.sse.com.cn/market/sseindex/overview/focus/` | 1 |
-| [Index Basic Information](https://veri-glow.com/www.sse.com.cn/market/sseindex/indexlist/basic/) | `www.sse.com.cn/market/sseindex/indexlist/basic/` | 4 |
-| [Index Quotation](https://veri-glow.com/www.sse.com.cn/market/sseindex/quotation/) | `www.sse.com.cn/market/sseindex/quotation/` | 1 |
+| [Key Index & Sample Performance](https://agentmap.veri-glow.com/www.sse.com.cn/market/sseindex/overview/focus/) | `www.sse.com.cn/market/sseindex/overview/focus/` | 1 |
+| [Index Basic Information](https://agentmap.veri-glow.com/www.sse.com.cn/market/sseindex/indexlist/basic/) | `www.sse.com.cn/market/sseindex/indexlist/basic/` | 4 |
+| [Index Quotation](https://agentmap.veri-glow.com/www.sse.com.cn/market/sseindex/quotation/) | `www.sse.com.cn/market/sseindex/quotation/` | 1 |
 
 **Fund Data (基金数据):**
 
 | Source | URL | Functions |
 |--------|-----|-----------|
-| [Fund Daily Overview](https://veri-glow.com/www.sse.com.cn/market/funddata/overview/day/) | `www.sse.com.cn/market/funddata/overview/day/` | 1 |
-| [Fund Weekly Overview](https://veri-glow.com/www.sse.com.cn/market/funddata/overview/weekly/) | `www.sse.com.cn/market/funddata/overview/weekly/` | 1 |
-| [Fund Monthly Overview](https://veri-glow.com/www.sse.com.cn/market/funddata/overview/monthly/) | `www.sse.com.cn/market/funddata/overview/monthly/` | 1 |
-| [Fund Annual Overview](https://veri-glow.com/www.sse.com.cn/market/funddata/overview/yearly/) | `www.sse.com.cn/market/funddata/overview/yearly/` | 1 |
-| [Public REITs Scale](https://veri-glow.com/www.sse.com.cn/market/funddata/volumn/reits/) | `www.sse.com.cn/market/funddata/volumn/reits/` | 1 |
-| [LOF Scale](https://veri-glow.com/www.sse.com.cn/market/funddata/volumn/lofvolumn/) | `www.sse.com.cn/market/funddata/volumn/lofvolumn/` | 2 |
-| [Graded LOF Fund Scale](https://veri-glow.com/www.sse.com.cn/market/funddata/volumn/fjlofvolumn/) | `www.sse.com.cn/market/funddata/volumn/fjlofvolumn/` | 1 |
+| [Fund Daily Overview](https://agentmap.veri-glow.com/www.sse.com.cn/market/funddata/overview/day/) | `www.sse.com.cn/market/funddata/overview/day/` | 1 |
+| [Fund Weekly Overview](https://agentmap.veri-glow.com/www.sse.com.cn/market/funddata/overview/weekly/) | `www.sse.com.cn/market/funddata/overview/weekly/` | 1 |
+| [Fund Monthly Overview](https://agentmap.veri-glow.com/www.sse.com.cn/market/funddata/overview/monthly/) | `www.sse.com.cn/market/funddata/overview/monthly/` | 1 |
+| [Fund Annual Overview](https://agentmap.veri-glow.com/www.sse.com.cn/market/funddata/overview/yearly/) | `www.sse.com.cn/market/funddata/overview/yearly/` | 1 |
+| [Public REITs Scale](https://agentmap.veri-glow.com/www.sse.com.cn/market/funddata/volumn/reits/) | `www.sse.com.cn/market/funddata/volumn/reits/` | 1 |
+| [LOF Scale](https://agentmap.veri-glow.com/www.sse.com.cn/market/funddata/volumn/lofvolumn/) | `www.sse.com.cn/market/funddata/volumn/lofvolumn/` | 2 |
+| [Graded LOF Fund Scale](https://agentmap.veri-glow.com/www.sse.com.cn/market/funddata/volumn/fjlofvolumn/) | `www.sse.com.cn/market/funddata/volumn/fjlofvolumn/` | 1 |
 
 **Bond Data (债券数据):**
 
 | Source | URL | Functions |
 |--------|-----|-----------|
-| [Bond Daily Overview](https://veri-glow.com/www.sse.com.cn/market/bonddata/overview/day/) | `www.sse.com.cn/market/bonddata/overview/day/` | 1 |
-| [Bond Weekly Overview](https://veri-glow.com/www.sse.com.cn/market/bonddata/overview/weekly/) | `www.sse.com.cn/market/bonddata/overview/weekly/` | 1 |
-| [Bond Monthly Overview](https://veri-glow.com/www.sse.com.cn/market/bonddata/overview/monthly/) | `www.sse.com.cn/market/bonddata/overview/monthly/` | 1 |
-| [Bond Annual Overview](https://veri-glow.com/www.sse.com.cn/market/bonddata/overview/yearly/) | `www.sse.com.cn/market/bonddata/overview/yearly/` | 1 |
-| [Bond Statistics](https://veri-glow.com/www.sse.com.cn/market/bonddata/statistic/) | `www.sse.com.cn/market/bonddata/statistic/` | 1 |
-| [Convertible Bond Trading](https://veri-glow.com/www.sse.com.cn/market/bonddata/dxkzzcj/) | `www.sse.com.cn/market/bonddata/dxkzzcj/` | 1 |
-| [Exchangeable Bond Conversion](https://veri-glow.com/www.sse.com.cn/market/bonddata/exchangeable/) | `www.sse.com.cn/market/bonddata/exchangeable/` | 2 |
-| [Bond Yield Statistics](https://veri-glow.com/www.sse.com.cn/market/bonddata/profit/) | `www.sse.com.cn/market/bonddata/profit/` | 1 |
-| [Bond Clean & Dirty Price](https://veri-glow.com/www.sse.com.cn/market/bonddata/netfull/) | `www.sse.com.cn/market/bonddata/netfull/` | 1 |
-| [Active Bond Varieties](https://veri-glow.com/www.sse.com.cn/market/bonddata/livelybond/) | `www.sse.com.cn/market/bonddata/livelybond/` | 1 |
+| [Bond Daily Overview](https://agentmap.veri-glow.com/www.sse.com.cn/market/bonddata/overview/day/) | `www.sse.com.cn/market/bonddata/overview/day/` | 1 |
+| [Bond Weekly Overview](https://agentmap.veri-glow.com/www.sse.com.cn/market/bonddata/overview/weekly/) | `www.sse.com.cn/market/bonddata/overview/weekly/` | 1 |
+| [Bond Monthly Overview](https://agentmap.veri-glow.com/www.sse.com.cn/market/bonddata/overview/monthly/) | `www.sse.com.cn/market/bonddata/overview/monthly/` | 1 |
+| [Bond Annual Overview](https://agentmap.veri-glow.com/www.sse.com.cn/market/bonddata/overview/yearly/) | `www.sse.com.cn/market/bonddata/overview/yearly/` | 1 |
+| [Bond Statistics](https://agentmap.veri-glow.com/www.sse.com.cn/market/bonddata/statistic/) | `www.sse.com.cn/market/bonddata/statistic/` | 1 |
+| [Convertible Bond Trading](https://agentmap.veri-glow.com/www.sse.com.cn/market/bonddata/dxkzzcj/) | `www.sse.com.cn/market/bonddata/dxkzzcj/` | 1 |
+| [Exchangeable Bond Conversion](https://agentmap.veri-glow.com/www.sse.com.cn/market/bonddata/exchangeable/) | `www.sse.com.cn/market/bonddata/exchangeable/` | 2 |
+| [Bond Yield Statistics](https://agentmap.veri-glow.com/www.sse.com.cn/market/bonddata/profit/) | `www.sse.com.cn/market/bonddata/profit/` | 1 |
+| [Bond Clean & Dirty Price](https://agentmap.veri-glow.com/www.sse.com.cn/market/bonddata/netfull/) | `www.sse.com.cn/market/bonddata/netfull/` | 1 |
+| [Active Bond Varieties](https://agentmap.veri-glow.com/www.sse.com.cn/market/bonddata/livelybond/) | `www.sse.com.cn/market/bonddata/livelybond/` | 1 |
 
 **Other Data (其他数据):**
 
 | Source | URL | Functions |
 |--------|-----|-----------|
-| [Margin Trading Summary](https://veri-glow.com/www.sse.com.cn/market/othersdata/margin/sum/) | `www.sse.com.cn/market/othersdata/margin/sum/` | 1 |
-| [Margin Trading Detail](https://veri-glow.com/www.sse.com.cn/market/othersdata/margin/detail/) | `www.sse.com.cn/market/othersdata/margin/detail/` | 2 |
-| [Securities Lending Overview](https://veri-glow.com/www.sse.com.cn/market/othersdata/refinancing/lend/) | `www.sse.com.cn/market/othersdata/refinancing/lend/` | 1 |
-| [Strategic Placement Lending (Main)](https://veri-glow.com/www.sse.com.cn/market/othersdata/zlpskcjxx/main/) | `www.sse.com.cn/market/othersdata/zlpskcjxx/main/` | 1 |
-| [Strategic Placement Lending (STAR)](https://veri-glow.com/www.sse.com.cn/market/othersdata/zlpskcjxx/star/) | `www.sse.com.cn/market/othersdata/zlpskcjxx/star/` | 1 |
-| [Asset Management Share Transfer](https://veri-glow.com/www.sse.com.cn/market/othersdata/asset/) | `www.sse.com.cn/market/othersdata/asset/` | 1 |
-| [Member List](https://veri-glow.com/www.sse.com.cn/market/othersdata/memberdata/memberlist/) | `www.sse.com.cn/market/othersdata/memberdata/memberlist/` | 1 |
+| [Margin Trading Summary](https://agentmap.veri-glow.com/www.sse.com.cn/market/othersdata/margin/sum/) | `www.sse.com.cn/market/othersdata/margin/sum/` | 1 |
+| [Margin Trading Detail](https://agentmap.veri-glow.com/www.sse.com.cn/market/othersdata/margin/detail/) | `www.sse.com.cn/market/othersdata/margin/detail/` | 2 |
+| [Securities Lending Overview](https://agentmap.veri-glow.com/www.sse.com.cn/market/othersdata/refinancing/lend/) | `www.sse.com.cn/market/othersdata/refinancing/lend/` | 1 |
+| [Strategic Placement Lending (Main)](https://agentmap.veri-glow.com/www.sse.com.cn/market/othersdata/zlpskcjxx/main/) | `www.sse.com.cn/market/othersdata/zlpskcjxx/main/` | 1 |
+| [Strategic Placement Lending (STAR)](https://agentmap.veri-glow.com/www.sse.com.cn/market/othersdata/zlpskcjxx/star/) | `www.sse.com.cn/market/othersdata/zlpskcjxx/star/` | 1 |
+| [Asset Management Share Transfer](https://agentmap.veri-glow.com/www.sse.com.cn/market/othersdata/asset/) | `www.sse.com.cn/market/othersdata/asset/` | 1 |
+| [Member List](https://agentmap.veri-glow.com/www.sse.com.cn/market/othersdata/memberdata/memberlist/) | `www.sse.com.cn/market/othersdata/memberdata/memberlist/` | 1 |
 | ...and 10 more member/business qualification pages | | |
 
 ### FRED (Federal Reserve Economic Data) — 6 maps
 
 | Source | URL | Functions |
 |--------|-----|-----------|
-| [Time Series Data](https://veri-glow.com/fred.stlouisfed.org/series/observations/) | `fred.stlouisfed.org/series/observations/` | 1 |
-| [Search Series](https://veri-glow.com/fred.stlouisfed.org/series/search/) | `fred.stlouisfed.org/series/search/` | 1 |
-| [Series Metadata](https://veri-glow.com/fred.stlouisfed.org/series/) | `fred.stlouisfed.org/series/` | 1 |
-| [Browse by Category](https://veri-glow.com/fred.stlouisfed.org/category/series/) | `fred.stlouisfed.org/category/series/` | 1 |
-| [Release Calendar](https://veri-glow.com/fred.stlouisfed.org/releases/) | `fred.stlouisfed.org/releases/` | 1 |
-| [Discover by Tag](https://veri-glow.com/fred.stlouisfed.org/tags/series/) | `fred.stlouisfed.org/tags/series/` | 1 |
+| [Time Series Data](https://agentmap.veri-glow.com/fred.stlouisfed.org/series/observations/) | `fred.stlouisfed.org/series/observations/` | 1 |
+| [Search Series](https://agentmap.veri-glow.com/fred.stlouisfed.org/series/search/) | `fred.stlouisfed.org/series/search/` | 1 |
+| [Series Metadata](https://agentmap.veri-glow.com/fred.stlouisfed.org/series/) | `fred.stlouisfed.org/series/` | 1 |
+| [Browse by Category](https://agentmap.veri-glow.com/fred.stlouisfed.org/category/series/) | `fred.stlouisfed.org/category/series/` | 1 |
+| [Release Calendar](https://agentmap.veri-glow.com/fred.stlouisfed.org/releases/) | `fred.stlouisfed.org/releases/` | 1 |
+| [Discover by Tag](https://agentmap.veri-glow.com/fred.stlouisfed.org/tags/series/) | `fred.stlouisfed.org/tags/series/` | 1 |
 
 ### International APIs — 4 maps
 
 | Source | URL | Functions |
 |--------|-----|-----------|
-| [Cryptocurrency Market Data](https://veri-glow.com/coinpaprika.com/coin/btc-bitcoin/) | `coinpaprika.com/coin/btc-bitcoin/` | 1 |
-| [Weather Forecast API](https://veri-glow.com/open-meteo.com/en/docs/) | `open-meteo.com/en/docs/` | 1 |
-| [Hacker News Top Stories](https://veri-glow.com/news.ycombinator.com/) | `news.ycombinator.com/` | 2 |
+| [Cryptocurrency Market Data](https://agentmap.veri-glow.com/coinpaprika.com/coin/btc-bitcoin/) | `coinpaprika.com/coin/btc-bitcoin/` | 1 |
+| [Weather Forecast API](https://agentmap.veri-glow.com/open-meteo.com/en/docs/) | `open-meteo.com/en/docs/` | 1 |
+| [Hacker News Top Stories](https://agentmap.veri-glow.com/news.ycombinator.com/) | `news.ycombinator.com/` | 2 |
 
 More maps are being added continuously. Visit [veri-glow.com](https://veri-glow.com) to browse all 65 maps or request a new one.
