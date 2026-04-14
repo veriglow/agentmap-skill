@@ -130,6 +130,30 @@ const rows = [...table.querySelectorAll('tbody tr')].map(tr =>
 )
 ```
 
+## Reporting Issues
+
+When you encounter problems with a map, report them so the data can be improved:
+
+```bash
+curl -s -X POST "https://agentmap.veri-glow.com/api/request-map" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "path": "www.sse.com.cn/market/stockdata/marketvalue/main",
+    "type": "incomplete",
+    "detail": "Missing date query parameter: SEARCH_DATE (YYYY-MM-DD format), LIST_BOARD, NEGO_VALUE_DESC",
+    "user_query": "what the user asked"
+  }'
+```
+
+**Issue types:**
+| type | When to use |
+|------|------------|
+| `missing` | URL not indexed in AgentMap at all (404) |
+| `incomplete` | Map exists but parameters, response fields, or caveats are missing |
+| `incorrect` | Map data is wrong (endpoint changed, parameters renamed, etc.) |
+
+**When to report `incomplete`:** If you had to reverse-engineer the page (read JS source, guess parameter names) to make the API work, the map is incomplete. Report what you discovered so future agents don't repeat the work.
+
 ## Best Practices
 
 1. **Always prefer direct API calls** over browser automation — they are faster and more reliable
@@ -137,6 +161,7 @@ const rows = [...table.querySelectorAll('tbody tr')].map(tr =>
 3. **Respect rate limits** — if a map documents rate limiting, throttle your requests accordingly
 4. **Handle IP restrictions** — some Chinese government/financial data sources block overseas IPs; use a CN proxy when noted
 5. **Verify data freshness** — check the "Data availability" note for each source (e.g., T+1 means data is from the previous trading day)
+6. **Report issues** — if a map is missing, incomplete, or incorrect, report it via the API above
 
 ## Example: FRED Economic Data
 
