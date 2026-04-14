@@ -82,15 +82,18 @@ Here is a complete example of using an Agent Map to get Shanghai Stock Exchange 
 ### Direct API Call (Preferred)
 
 ```bash
-curl "https://www.sse.com.cn/js/common/sseBond498Fixed.js?searchDate=2025-02-11"
+curl "https://query.sse.com.cn/commonQuery.do?sqlId=COMMON_SSEBOND_SCSJ_SCTJ_CJSJ_ZQLXCJTJ_CX_L&START_DATE=2025-02-11&END_DATE=2025-02-11" \
+  -H "Referer: https://www.sse.com.cn/market/bonddata/overview/day/"
 ```
 
 **Parameters:**
 
 | Name | Type | Required | Description |
 |------|------|----------|-------------|
-| searchDate | string | Yes | Query date in `YYYY-MM-DD` format |
-| jsonCallBack | string | No | JSONP callback name. Omit for pure JSON. |
+| sqlId | string | Yes | Fixed value: `COMMON_SSEBOND_SCSJ_SCTJ_CJSJ_ZQLXCJTJ_CX_L` |
+| START_DATE | string | Yes | Start date in `YYYY-MM-DD` format |
+| END_DATE | string | Yes | End date in `YYYY-MM-DD` format |
+| Referer header | string | Yes | Must be `https://www.sse.com.cn/market/bonddata/overview/day/` |
 
 **Returns:** JSON with 17 rows × 4 columns:
 
