@@ -17,16 +17,7 @@
 
 ---
 
-> ### 📦 Claude Code users — prefer the plugin
->
-> This standalone skill still works, but **Claude Code users should install the `veriglow` plugin instead** — it bundles this skill + CiteAnything with a one-command setup.
->
-> ```
-> /plugin marketplace add veriglow/veriglow-plugins
-> /plugin install veriglow@veriglow-plugins
-> ```
->
-> See the [migration guide](https://github.com/veriglow/veriglow-plugins#migrating-from-standalone-skills) if you're already using the standalone skill.
+> 💡 Using Claude Code? Install via the [veriglow plugin](https://github.com/veriglow/veriglow-plugins) for a one-command setup.
 
 ---
 
