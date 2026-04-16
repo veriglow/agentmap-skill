@@ -17,6 +17,19 @@
 
 ---
 
+> ### 📦 Claude Code users — prefer the plugin
+>
+> This standalone skill still works, but **Claude Code users should install the `veriglow` plugin instead** — it bundles this skill + CiteAnything with a one-command setup.
+>
+> ```
+> /plugin marketplace add veriglow/veriglow-plugins
+> /plugin install veriglow@veriglow-plugins
+> ```
+>
+> See the [migration guide](https://github.com/veriglow/veriglow-plugins#migrating-from-standalone-skills) if you're already using the standalone skill.
+
+---
+
 ## What it does
 
 AgentMap is an [Agent Skill](https://agentskills.io) that gives AI agents a registry of reverse-engineered API specs for websites. Instead of scraping HTML or automating browsers, agents look up the hidden API behind a web page and call it directly.
