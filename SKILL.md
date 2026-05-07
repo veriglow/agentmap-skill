@@ -205,9 +205,9 @@ curl "https://api.stlouisfed.org/fred/series/observations?series_id=DGS10&observ
 - Daily series return `'.'` for weekends/holidays (not null)
 - No IP restrictions
 
-## Available Maps (65 data sources)
+## Available Maps (70+ data sources)
 
-Currently indexed: **55 Shanghai Stock Exchange pages** + 6 FRED endpoints + 4 international APIs.
+Currently indexed: **55 Shanghai Stock Exchange pages** + 6 FRED endpoints + 5 Ctrip flight APIs + 4 international APIs + more.
 
 ### Shanghai Stock Exchange (上海证券交易所) — 55 maps
 
@@ -293,6 +293,16 @@ Currently indexed: **55 Shanghai Stock Exchange pages** + 6 FRED endpoints + 4 i
 | [Release Calendar](https://agentmap.veri-glow.com/fred.stlouisfed.org/releases/) | `fred.stlouisfed.org/releases/` | 1 |
 | [Discover by Tag](https://agentmap.veri-glow.com/fred.stlouisfed.org/tags/series/) | `fred.stlouisfed.org/tags/series/` | 1 |
 
+### Ctrip Flights (携程机票) — 5 maps
+
+| Source | URL | Functions |
+|--------|-----|-----------|
+| [Calendar Lowest Price](https://agentmap.veri-glow.com/flights.ctrip.com/lowest-price-calendar.json) | `flights.ctrip.com/lowest-price-calendar` | 1 |
+| [Trip.com Calendar Low Price](https://agentmap.veri-glow.com/flights.ctrip.com/trip-low-price-calendar.json) | `flights.ctrip.com/trip-low-price-calendar` | 1 |
+| [Flight List Search](https://agentmap.veri-glow.com/flights.ctrip.com/batch-search.json) | `flights.ctrip.com/batch-search` | 1 |
+| [Flight Comfort](https://agentmap.veri-glow.com/flights.ctrip.com/flight-comfort.json) | `flights.ctrip.com/flight-comfort` | 1 |
+| [Holiday Calendar](https://agentmap.veri-glow.com/flights.ctrip.com/holiday-calendar.json) | `flights.ctrip.com/holiday-calendar` | 1 |
+
 ### International APIs — 4 maps
 
 | Source | URL | Functions |
@@ -301,4 +311,6 @@ Currently indexed: **55 Shanghai Stock Exchange pages** + 6 FRED endpoints + 4 i
 | [Weather Forecast API](https://agentmap.veri-glow.com/open-meteo.com/en/docs/) | `open-meteo.com/en/docs/` | 1 |
 | [Hacker News Top Stories](https://agentmap.veri-glow.com/news.ycombinator.com/) | `news.ycombinator.com/` | 2 |
 
-More maps are being added continuously. Visit [veri-glow.com](https://veri-glow.com) to browse all 65 maps or request a new one.
+More maps are being added continuously. Visit [agentmap.veri-glow.com](https://agentmap.veri-glow.com) to browse all maps or request a new one.
+
+**Tip:** To get the raw JSON map for any source, append `.json` to the map URL. For example: `https://agentmap.veri-glow.com/flights.ctrip.com/lowest-price-calendar.json`
